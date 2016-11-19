@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.gdmec.s07150632.mymediaplayer.MainActivity">
+    <!--查询栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--文件夹路径-->
+        <EditText
+            android:id="@+id/path_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"/>
+        <!--查询按键-->
+        <Button
+            android:id="@+id/qry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询"/>
+    </LinearLayout>
+    <!--文件列表-->
+    <ListView
+        android:id="@+id/file_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </ListView>
+</LinearLayout>

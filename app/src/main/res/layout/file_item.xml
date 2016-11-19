@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--文件夹图标-->
+    <ImageView
+        android:id="@+id/folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/folder"/>
+    <!--媒体图标-->
+    <ImageView
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music"
+        android:visibility="gone"/>
+    <!--文件名称-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="media files"
+        android:textSize="18.0dip"
+        android:layout_weight="1.0"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+</LinearLayout>
