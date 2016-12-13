@@ -56,7 +56,7 @@ public class MyFileActivity extends Activity{
                         getFileDir(pathEditText.getText().toString());
                     }
                 }else {
-                    Toast.makeText(MyFileActivity.this,"找不到该位置，请确定位置是否正确！",
+                    Toast.makeText(MyFileActivity.this,"找不到该位置，请确定该位置是否正确！",
                             Toast.LENGTH_SHORT).show();
                 }
             }
